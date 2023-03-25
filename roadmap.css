@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+
+
 :root {
 	--gap: .5em;
 	--index: calc(1vw + 1vh);
@@ -55,12 +57,12 @@ body {
 	transform: scale(1.001);
 	will-change: transform;
 	transition: .3s;
-	filter: grayscale(1);
 }
 
 .photo__item:hover {
-	transform: scale(1.25);
-	filter: none;
+	/*transform: rotateY(-180deg);
+	transition: cubic-bezier(.075, 1, .25, 1),2s;*/
+	transform: scale(1.15);
 }
 
 
@@ -114,3 +116,4 @@ body {
 		transform: scale(1);
 	}
 }
+
