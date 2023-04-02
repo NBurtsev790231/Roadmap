@@ -15,7 +15,7 @@ body {
 
 img {
 	width: 900px;
-	height: 700px;
+	height: 600px;
 	border-radius: 50%;
 	padding: 10px;
 	transition: all 2s ease;
@@ -24,12 +24,12 @@ img {
 img:hover {
 	border-radius: 10%;
 	transition: all 2s ease;
-	height: 800px;
+	height: 700px;
 }
 
 .photo__text {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 10px;
 	color: #ffffff;
 	position: relative;
