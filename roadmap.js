@@ -14,5 +14,5 @@ window.onload = function() {
 }
 
 function open_photo_1() {
-	photo__item= window.open('./text/photo_1.html');
+	photo__item= window.open ('./text/photo_1.html');
 }
