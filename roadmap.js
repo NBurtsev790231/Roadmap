@@ -14,5 +14,11 @@ window.onload = function() {
 }
 
 document.getElementById('open-modal-box').addEventListener('click',function() {
-	window.open('./text/photo_1.html');
+window.location.href = './text/photo_1.html';
 })
+
+/*
+let link = document.querySelector('link[rel=import]');
+let content = link.import.querySelector('#photo_1-dm');
+document.body.appendChild(content.cloneNode(true));
+*/
