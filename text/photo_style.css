@@ -42,9 +42,8 @@ max-width: 1200px;
 max-height: 700px;
 z-index: 1;
 background-color: #000000;
-border: 5px solid #a72db0;
+border: 2px solid #a72db0;
 border-radius: 5%;
-box-shadow: 1px 1px 15px 5px #a72db0;
 }
 
 
