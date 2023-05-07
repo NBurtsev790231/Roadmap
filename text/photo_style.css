@@ -4,6 +4,12 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--gap: .5em;
+	--index: calc(1vw + 1vh);
+	--color-dark: #000000;
+}
+
 .background-image {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -82,8 +88,9 @@ img:hover {
 	opacity: 90%;
 }
 
+/*Dark mode*/
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #000000;
+		background-color: var(--color-dark);
 	}
 }
