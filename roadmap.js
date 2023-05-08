@@ -17,6 +17,11 @@ document.getElementById('open-modal-box').addEventListener('click',function() {
 window.location.href = './text/photo_1.html';
 })
 
+document.getElementById('open-modal-box2').addEventListener('click', function() {
+	window.location.href='./text/photo_2.html';
+})
+
+
 /*
 let link = document.querySelector('link[rel=import]');
 let content = link.import.querySelector('#photo_1-dm');
