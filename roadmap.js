@@ -13,6 +13,12 @@ window.onload = function() {
 	}, 200)
 }
 
-function open_photo_1() {
-	photo__item= window.open('./text/photo_1.html');
-}
+document.getElementById('open-modal-box').addEventListener('click',function() {
+window.location.href = './text/photo_1.html';
+})
+
+/*
+let link = document.querySelector('link[rel=import]');
+let content = link.import.querySelector('#photo_1-dm');
+document.body.appendChild(content.cloneNode(true));
+*/
