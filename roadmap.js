@@ -21,6 +21,9 @@ document.getElementById('open-modal-box2').addEventListener('click', function() 
 	window.location.href='./text/photo_2.html';
 })
 
+document.getElementById('open-modal-box3').addEventListener('click',function() {
+	window.location.href='./text/photo_3.html';
+})
 
 /*
 let link = document.querySelector('link[rel=import]');
