@@ -13,6 +13,7 @@ window.onload = function() {
 	}, 200)
 }
 
+
 document.getElementById('open-modal-box').addEventListener('click',function() {
 window.location.href = './text/photo_1.html';
 })
