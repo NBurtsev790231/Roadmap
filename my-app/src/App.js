@@ -1,5 +1,10 @@
-import './Styles/roadmap.css'
-
+/*
+import './Styles/roadmap.css';
+import './libs/gsap.min';
+import './libs/Draggable.min';
+import './libs/InertiaPlugin.min';
+*/
+/*
 function App() {
   return (
     <div className="App">
@@ -58,5 +63,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;
